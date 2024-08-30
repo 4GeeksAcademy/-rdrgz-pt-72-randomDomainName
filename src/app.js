@@ -5,31 +5,14 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-const one = ["the", "our", "their", "this"];
-const two = ["great", "big", "wrathful", "meek"];
-const three = ["jogger", "racoon", "passion", "estate"];
-const four = [".com", ".org", ".gov", ".net"];
+let one = ["the", "our", "their", "this"];
 
-function getRandomNumber(_min, _max) {
-  return Math.floor(Math.random() * 4);
-}
+let two = ["great", "big", "wrathful", "meek"];
 
-function getRandom(anyArray) {
-  let max = anyArray.lenght - 1;
-  let min = 0;
-  let random = getRandomNumber(min, max);
-  return anyArray[random];
-}
+let three = ["jogger", "racoon", "passion", "estate"];
 
-for (i = 0 < Math.floor(Math.random); any.length; i++)
-  console.log(one, two, three, four)[i];
-{
-  document.querySelector(one, two, three, four).innerHTML =
-    getRandom(one) +
-    " " +
-    getRandom(two) +
-    " " +
-    getRandom(three) +
-    " " +
-    getRandom(four);
+let four = [".com", ".org", ".gov", ".net"];
+
+for (i = 0 < one, two, three, four.length; Math.floor(Math.random); i++) {
+  console.log(i);
 }
