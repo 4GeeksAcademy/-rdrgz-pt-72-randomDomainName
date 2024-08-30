@@ -13,6 +13,8 @@ let three = ["jogger", "racoon", "passion", "estate"];
 
 let four = [".com", ".org", ".gov", ".net"];
 
-for (i = 0 < one, two, three, four.length; Math.floor(Math.random); i++) {
-  console.log(i);
+for (i = 0; i < any.length; ) {
+  Math.floor(Math.random);
+  i++;
 }
+console.log(one, two, three, four);
