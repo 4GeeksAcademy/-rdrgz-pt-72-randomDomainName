@@ -19,7 +19,7 @@ function domainHackExtension(noun) {
 function domainHackNoun(noun) {
   return noun.slice(0, -3);
 }
-
+//took me forever to figure this out//
 window.onload = function() {
   //write your code here
   let domainNames = "";
