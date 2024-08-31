@@ -9,7 +9,7 @@ let pronoun = ["the", "our", "their", "this"];
 let adj = ["great", "big", "wrathful", "meek"];
 let noun = ["logger", "human", "passion", "estate"];
 let convertedNoun = noun.map(domainHackNoun);
-
+//this was the hardest part//
 let extension = noun.map(domainHackExtension);
 
 function domainHackExtension(noun) {
@@ -35,7 +35,6 @@ window.onload = function() {
           "</li>";
       }
     }
-    //}
   }
   console.log(domainNames);
 
